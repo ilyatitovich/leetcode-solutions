@@ -1,0 +1,15 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "generate": "tsx generate-task.ts"
+  },
+  "packageManager": "pnpm@10.12.2",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
