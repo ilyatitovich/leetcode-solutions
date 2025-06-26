@@ -11,7 +11,7 @@ This repository contains my personal solutions to LeetCode problems. I solve the
 
 ## Profile
 
-- [My LeetCode Profile](https://leetcode.com/u/ilyatitovdev/) — Check out my latest submissions and contest rankings.
+[My LeetCode Profile](https://leetcode.com/u/ilyatitovdev/) — Check out my latest submissions and contest rankings.
 
 ## Note
 
