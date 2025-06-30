@@ -41,3 +41,11 @@ function isValid(s: string): boolean {
 
   return stack.length === 0; // Valid if no unmatched brackets remain
 }
+
+// Example usage:
+console.log(isValid("()")); // true
+console.log(isValid("()[]{}")); // true
+console.log(isValid("(]")); // false
+console.log(isValid("([)]")); // false
+console.log(isValid("{[]}")); // true
+console.log(isValid("([{}])")); // true
