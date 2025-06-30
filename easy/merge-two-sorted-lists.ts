@@ -62,3 +62,21 @@ function mergeTwoLists(
 
   return mergedHead;
 }
+
+// Example usage
+const list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+const list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+const mergedList = mergeTwoLists(list1, list2);
+
+// Function to print the merged list
+function printList(head: ListNode | null): void {
+  let current = head;
+
+  while (current) {
+    process.stdout.write(current.val + " ");
+    current = current.next;
+  }
+
+  console.log();
+}
+printList(mergedList); // Output: 1 1 2 3 4 4
