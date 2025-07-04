@@ -4,9 +4,9 @@ This repository contains my personal solutions to LeetCode problems. I solve the
 
 ## Structure
 
-- `easy/` – beginner-friendly problems;
-- `medium/` – intermediate level;
-- `hard/` – advanced algorithmic challenges.
+- [`easy/`](./easy) – beginner-friendly problems;
+- [`medium/`](./medium) – intermediate level;
+- [`hard/`](./hard) – advanced algorithmic challenges.
 
 Each solution is named after the problem, with a clear file structure.
 
